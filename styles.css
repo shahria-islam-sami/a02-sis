@@ -1,0 +1,41 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif
+}
+body {
+    background-color: #f6f8fb;
+    margin: 60px auto;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1100px;
+    margin: 60px auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 120px;
+    height: auto;
+    display: block;
+}
+.menu-bar a{
+    justify-content: space-between;
+    
+    align-items: center;
+    text-decoration: none;
+    color: #302e2e;
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+.menu a, .active, .cart {
+    color: #222020;
+    font-weight: bold;
+}
+.nav-bar a:hover {
+  color: #f26a2e;
+}
