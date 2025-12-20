@@ -453,6 +453,49 @@ body {
     padding-left: 18px;
     align-items: center;
   }
+  
+   .latest-deal {
+    margin: 20px 20px ;
+    align-items: center;
+    
+  }
+  .latest-deal h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+    .latest-deal h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .latest-deal p {
+    font-size: 15px;
+    padding: 0 10px;
+    
+  }
+
+  .deal-grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .deal-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .deal-overlay p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .deal-overlay span {
+    font-size: 18px;
+    font-weight: bold;
+  }
 
 
 
